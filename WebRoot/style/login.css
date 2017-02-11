@@ -1,0 +1,103 @@
+body{
+	padding: 0px;
+	margin:0px;
+	background: #EDF8FA url("http://7xl5gb.com1.z0.glb.clouddn.com/000706581.jpg") no-repeat;
+	background-size: 100% auto;
+	
+}
+
+.navigation{
+	height: 80px;
+	width: 100%;
+	position: absolute;
+	background: linear-gradient(to bottom, #ccc , #fff);
+	border-bottom: 2px solid #8C8993;
+	top: 0;
+	left:0;
+
+}
+.navigation h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	color: #666666;
+
+}
+.navigation .register{
+	position: absolute;
+    right: 150px;
+    font-size: 18px;
+    top: 50px;
+}
+.content{
+	position: relative;
+}
+.comment-box{
+	width: 400px;
+	margin: 120px ;
+	padding: 30px 50px;
+}
+.comment-box p{
+	font-size: 26px;
+	color: #333333;
+	font-family: "youyuan";
+	line-height: 30px;
+}
+.login-box{
+	position: absolute;
+	border: solid 3px #F7BE41;
+	border-radius: 8px;
+	box-shadow: #F7BE41 15px 20px 30px;
+	top: 0px;
+	right: 260px;
+	background: #F9FBBF;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 20px;
+	margin: 20px 30px;
+}
+.login-box .title{
+	font: 22px/24px "youyuan";
+    height: 24px;
+}
+.login-box p label{
+	display: inline-block;
+    width: 80px;
+    font-size: 19px;
+    line-height: 24px;
+}
+.login-box p input{
+	width: 150px;
+    height: 26px;
+    font-size: 19px;
+    background: floralwhite;
+    border: 0px;
+    line-height: 24px;
+}
+.login-box .auto-login{
+	font: 17px/30px "youyuan";
+	margin:10px 0;
+}
+.login-box input[type="checkbox"]{
+	height: 20px;
+	width:20px;
+	vertical-align: middle;
+	margin: 0px 10px 0px 0 ;
+}
+.login-box input[type="radio"]{ 
+	width: 19px;
+    vertical-align: middle;
+    margin: 0 10px 5px 0;
+}
+
+.login-box p button{
+	    width: 65px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 19px;
+    text-align: center;
+    margin: 0px 15px;
+}
+.login-box .form1 .info{
+	color: red;
+}
